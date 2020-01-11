@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>holy-layout</title>
+    <style>
+        /* *{box-sizing:border-box;} */
+        
+        .container{width:540px;
+            border:1px solid gray;
+            margin:0 auto;}
+
+        .header{border-bottom: 1px solid gray;}
+
+        .nav{float: left;
+            width:120px;
+            }
+
+        .article{float: left; 
+            width:298px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            }
+
+        .aside{float:left;
+        width:120px;
+
+        }
+
+        .footer{clear: both;
+        border-top:1px solid black;
+        text-align: center;
+        padding:20px;}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="#">CSS</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴2</a></li>
+                <li><a href="#">메뉴3</a></li>
+
+            </ul>
+        </div>
+        <div class="article">
+            <h2>float</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni rerum amet dolore velit ea incidunt aliquid possimus laborum illo tempore!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni rerum amet dolore velit ea incidunt aliquid possimus laborum illo tempore!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni 
+            </p>
+        </div>
+        <div class="aside">
+            <p>ad</p>
+        </div>
+        <div class="footer">
+            <p>copyright</p>
+        </div>
+    </div>
+</body>
+
+</html>
