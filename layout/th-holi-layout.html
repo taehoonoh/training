@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>holy-layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        a{color: black; text-decoration: none;}
+
+        /* 메인 */
+        .main{border:1px solid black; width:800px;
+                margin: 0 auto;
+}
+
+        .header{border-bottom: 1px solid black;;}
+        .header h1{text-align: left; margin:20px;} 
+
+        /* 네비 */
+        .nav{float: left; width:200px;}
+        .nav ul{margin: 20px 0 20px 30px;}
+        .nav a:hover{color: orange;}
+
+        /* 컨텐츠 */
+        .content{float: left;  width:398px; border-left: 1px solid black;
+            border-right: 1px solid black;}
+        .content h2{margin:20px 10px;}
+        .content p{margin:20px 10px; line-height: 1.5em;}
+
+        /* 어사이드 */
+        .aside{float: left;  width:200px;}
+        .aside ul{margin:20px 0 20px 30px;}
+
+        /* 푸터 */
+        .footer{clear: both; }
+        .footer p{border-top:1px solid black;
+                margin:50px 0px; text-align: center;
+                font-size: 14px;}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1><a href="#">CSS</a></h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴2</a></li>
+                <li><a href="#">메뉴3</a></li>
+                <li><a href="#">메뉴4</a></li>
+                <li><a href="#">메뉴5</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>float</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni rerum amet dolore velit ea incidunt aliquid possimus laborum illo tempore!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni rerum amet dolore velit ea incidunt aliquid possimus laborum illo tempore!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit provident eligendi fugiat unde error
+                porro aperiam eaque magni rerum amet dolore velit ea incidunt aliquid possimus laborum illo tempore!
+            </p>
+        </div>
+        <div class="aside">
+            <ul>
+                <li><a href="#">ad1</a></li>
+                <li><a href="#">ad2</a></li>
+                <li><a href="#">ad3</a></li>
+                <li><a href="#">ad4</a></li>
+                <li><a href="#">ad5</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>copyright Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+</body>
+
+</html>
