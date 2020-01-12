@@ -47,6 +47,43 @@ flot은 해제를 꼭 해야하며 하지않으면 다음요소에 영향을 받
 무조건 float 상태만 있어야한다(float자식모임)
 
 
+---
+
+다시 정리
+
+[09 CSS Clear속성 이해와 활용(웹퍼블리셔를 위한 웹표준, 웹접근성 실무기초)](https://www.youtube.com/watch?v=641i0NjaqBs&list=PL_6yF2upGJYu-mdzvejWuz6zLd5EOFQKf&index=9)
+
+~~~
+<ul>
+    <li>홈 > </li>
+    <li>기업소개 > </li>
+    <li>인사말 > </li>
+</ul>
+
+li를 left로 띄우고 ul에 right로 우측으로 보낸다
+
+~~~
+
+해제방법
+
+1. 다음으로 오는 요소에 clear:both를 사용하거나 
+없을경우 br(block)을 만들고 clear속성을 적용하여 해제
+(float을 적용하면 부모요소 높이는 사라진다)
+
+2. 가상선택자사용(clearfix:after)
+
+    + 부모요소에 클래스 .claerfix(class name)을 추가한다
+(다중선택자)
+
+~~~
+.clearfix:after{
+
+    content:"";            가상의 span(inline)만든다
+    display:block;         성질을 block으로 바꾼다
+    clear:both;            clear를 넣는다.
+}
+
+~~~
 
 
 
