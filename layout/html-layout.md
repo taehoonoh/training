@@ -1,7 +1,7 @@
-![alt layout](/img/html-layout.jpg)
+![alt layout](/img/html-layout1.jpg)
 
 
 
 
-![alt layout](/img/연습1.jpg)
+![alt layout](/img/1.jpg)
 
