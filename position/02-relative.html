@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        width:100px;
+        height:100px;
+        background:tomato;
+        border:4px dashed red;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .relative{
+        position:relative;
+        bottom:40px;
+        left:160px;
+    }
+    /* 자신을 기준으로 하며 주변
+    1번과3번요소 영향을 준다
+    absolute를 통한 배치 추천*/
+    </style>
+    
+</head>
+<body>
+   <div class="box">1</div>
+   <div class="box relative">2</div>
+   <div class="box">3</div>
+</body>
+</html>
