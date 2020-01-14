@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    body{
+        height: 4000px;
+
+
+    }
+
+    .grand-parent{
+        width:400px;
+        height: 300px;
+        padding: 30px 100px 100px 30px;
+        border: 4px dashed lightgray;
+    }
+    
+    .parent{
+     
+        width:400px;
+        height: 300px;
+        border: 4px dashed gray;
+    }
+    .child{
+        width:120px;
+        height:80px;
+        background: tomato;
+        border: 4px dashed red;
+        border-radius: 10px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .absolute{
+        position: fixed;
+        top:30px;
+        right: 40px;
+    }
+    </style>
+</head>
+<!-- absolute.fixed는
+    display가 block으로 바뀐다 -->
+<body>
+    <div class="grand-parent">
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child absolute">2</div>
+            <div class="child">3</div>
+        </div>
+    </div>
+</body>
+</html>
