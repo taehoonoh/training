@@ -44,6 +44,8 @@ top,right,bottom,right
 ★부모요소에도 position이 적용되어있는지 확인후   
 부모요소도 포지션 적용(보통 position:relative;)
 
+absolute.fixed display가 block으로 바뀐다
+
 적용순서(부모요소에 포지션이 없으면)   
 + 부모요소>조상요소>body>html>윈도우객체(뷰포트)
 
